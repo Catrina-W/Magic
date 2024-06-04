@@ -6,7 +6,7 @@ body {
 /* NAVIGATION BAR */
 .main-nav {
     display: flex;
-    background-color: blue;
+    background-color: black;
     list-style: none;
     font-size: 1em;
     margin: 0;
@@ -43,4 +43,20 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* FEATURES */
+.features {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+}
+
+.features img {
+    width: 300px;
+    margin: 50px;
+    border-radius: 50%;
 }
