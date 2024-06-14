@@ -155,10 +155,12 @@ li img {
 }
 
 .column.content {
+  position: absolute;
   border-radius: 1%;
   width: 1000px;
   height: 470px;
-  margin: 100px 0 0 60px;
+  margin-left: 425px;
+  margin-top: 100px;
   background-color: rgba(255, 255, 255, 0.444);
   padding: 0 50px 0 30px;
 }
